@@ -1,3 +1,7 @@
 body {
     background-color: #fff;
+    font-family: "Raleway","Roboto", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
