@@ -25,22 +25,24 @@ a {
     color: #2e2f42;
     letter-spacing: 0.02em;
 }
-.head-nav:hover {
+.head-nav:focus {
     color: #404bbf;
 }
 .logo {
     color: #2e2f42;
 }
-.head-addres  {
+.list {
+    font-style: normal;
+}
+.list-addres  {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.head-addres:hover,
-.head-addres:focus {
+.list-addres:hover,
+.list-addres:focus {
     color: #404bbf;
 }
 
@@ -156,11 +158,11 @@ background-color: #F4F4FD;
 
 /* footer */
 
-.foot {
+.down {
     background-color: #2e2f42;
 }
 
-.foot-down {
+.link-down {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -169,14 +171,15 @@ background-color: #F4F4FD;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.foot-logo {
+.link-logo {
     color: #f4f4fd;
 }
 
-.text-foot {
+.down-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
