@@ -25,6 +25,7 @@ a {
     color: #2e2f42;
     letter-spacing: 0.02em;
 }
+.head-nav:hover,
 .head-nav:focus {
     color: #404bbf;
 }
