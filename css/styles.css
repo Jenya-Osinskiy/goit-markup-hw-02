@@ -1,32 +1,40 @@
 body {
     background-color: #fff;
-    font-family: "Roboto","Raleway", sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
 }
 a {
     text-decoration: none;
 }
-.head-nav a {
+.logo-nav {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px; 
-    line-height: 1.16667;
-    color: #2e2f42;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
-.head-nav ul li a {
+.head-nav li a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
 }
 .logo {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .head-addres a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
     color: #434455;
+}
+.head-addres a:hover,
+.head-addres a:focus {
+    color: #404bbf;
 }
  
 .section-1 {
